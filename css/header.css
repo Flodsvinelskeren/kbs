@@ -1,0 +1,212 @@
+/*Victor
+
+Til at lave nav-bar plus hamburgermenu har vi fulgt denne:
+https://www.youtube.com/watch?v=XM7sEpl0f7c&t=63s&ab_channel=PureCode
+
+Til at lave en dropdown menu har vi fulgte dette link:
+https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp
+
+*/
+
+header {
+   position: sticky;
+   width: 100%; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   transition: 0.3s;
+   padding-top: 2px;
+   padding-right: 25px;
+   padding-bottom:2px;
+   border-bottom: 2px solid #008536;
+   background-color: white;
+   top: 0;
+}
+
+.åbningstider {
+    text-transform: uppercase;
+    padding-right: 10px;
+    color: #008536;
+    font-weight: 500;
+}
+
+.tid {
+    padding-right: 100px;
+    text-transform: uppercase;
+    color: #008536;
+    font-weight: 500;
+}
+
+.telefon {
+    padding-right: 150px;
+    text-transform: uppercase;
+    color: #008536;
+    font-weight: 500;
+}
+
+#tlf {
+    color: #008536;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.logo a {
+    display: block;
+}
+
+.logo a img {
+    display: block;
+    width: 250px;
+    max-width: 100%;
+    margin-left: -10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li a {
+    color: #008536;
+    text-decoration: none;
+    padding: 40px 25px;
+    display: block;
+    font-size: 18px;
+    line-height: 1;
+    transition: 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu li a:hover {
+    transition: 0.3s;
+    box-shadow: 0 -5px 0px #008536 inset,
+    500px 0 0 rgba(230, 229, 229, 0.432) inset;
+    font-size: 20px;
+
+}
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    border: none;
+    font-size: 18px;
+    outline: none;
+    color: #008536;
+    padding: 40px 25px;
+    background-color: inherit;
+    margin: 0; /* Important for vertical align on mobile phones */
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 -5px 0px #008536 inset,
+    500px 0 0 rgba(230, 229, 229, 0.432) inset;
+    
+  }
+
+  .dropdown:hover .dropbtn {
+    font-size: 20px;
+  }
+  
+  /* Show the dropdown menu on hover */
+   .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+#active {
+    background-color: #008536;
+    color: white;
+
+}
+
+.button {
+    text-decoration: none;
+    border: none;
+    background-color: #008536;
+    color: white;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 3025px) {
+    .åbningstider{
+        padding-right: 10px;
+        font-size: 14px;
+    }
+    
+    .tid {
+        padding-right: 30px;
+        font-size: 14px;
+    }
+    .telefon {
+        font-size: 14px; 
+    }
+
+    #tlf {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+    
+    .logo a img {
+        width: 200px;
+        padding-right: -10px;
+    }
+
+    .åbningstider{
+        padding-right: 10px;
+        font-size: 14px;
+        margin-top: 3px;
+    }
+    
+    .tid {
+        padding-right: 180px;
+        font-size: 14px;
+        margin-top: 3px;
+    }
+
+    .telefon {
+        display: none;
+    }
+
+    #tlf {
+        display: none;
+    }
+
+
+
+} 

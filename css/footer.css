@@ -1,0 +1,93 @@
+/* https://www.youtube.com/watch?v=lLdzlLL33G8 
+Vi fulgte den her footer, og lavet som om i den undervejs
+så det blev vores egen*/
+
+.footer {
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 10% 50px 10%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+
+.footer div {
+    text-align: center;
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.helhed, a:link {
+    
+    color: white;
+}
+
+.helhed, a:visited {
+    
+    color: white;
+}
+
+.helhed, a:hover {
+
+    color: white;
+}
+
+.helhed, a:active {
+    
+    color: white;
+}
+
+.fa-brands {
+    padding: 0 20px 0 20px;
+    margin-top: 40px;
+}
+
+iframe {
+    width: 100%;
+}
+
+.col-1 {
+    margin-left: -100px;
+    padding-right: 40px;
+}
+
+.col-3 {
+    padding-left: 40px;
+}
+
+
+
+@media screen and (max-width: 428px) {
+    .map-footer {
+        width: 350px;
+        margin-top: 370px;
+        margin-left: -272px;
+        text-align: center;
+    }
+
+    .col-1 {
+        margin-top: -50px;
+        width: auto;
+        margin-left: 100px; 
+        text-align: center;   
+    }
+
+    .col-3 {
+        width: auto;
+        margin-top: 320px;
+        text-align: center;
+    }
+
+    .linksss {
+        margin-top: -60px;
+        margin-left: -440px;  
+        text-align: center;
+    }
+
+    .icons {
+        margin-left: -245px;
+    }
+
+}

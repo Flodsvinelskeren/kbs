@@ -1,0 +1,135 @@
+
+
+@media screen and (max-width: 3100px) {
+
+    #hero {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+    .main{
+        margin-top: 50px;
+    }
+
+    .about{
+        padding-left: 20px;
+        padding-right: 800px;  
+        text-align: left;
+        
+    }
+
+    .about h1{
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 20px;
+        color: #008536;
+    }
+
+    .about p{
+        font-size: 16px;
+        text-align: center;
+        padding-left: 60px;
+        line-height: 40px;
+    }
+
+    .about h3{
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 20px;
+        color: #008536;
+    }
+
+    .anden{
+        text-align: right;
+        padding-left: 1000px;
+        padding-right: 10px; 
+        margin-top: -495px;
+        
+    }
+    .info1{
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .info2{
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .map{
+        max-width: 100;
+        width: 300px;
+        max-height: 100%;
+        height: 740px;
+        margin-left: 1105px;
+        padding-top: 40px;
+    }
+
+    .text2 h1{
+        font-size: 32px;
+        text-align: center;
+        margin-top: -250px;
+        color: #008536;
+        margin-bottom: 20px;
+    }
+
+
+    #ugeplan {
+        display: block;
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (max-width: 834px) {
+
+    .about {
+        padding-right: 0;
+
+    }
+
+    .about p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .anden {
+        padding-right: 0;
+        padding-left: 0;
+        margin-top: 50px;
+        
+    }
+
+    .map {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+    }
+
+    #ugeplan {
+        display: block;
+        max-width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 428px) {
+
+   .map{
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .text2 h1 {
+    margin-top: -500px;
+   }
+
+}
+
